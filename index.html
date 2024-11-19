@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Nav Container --1 -->
+    <section class="flex max-sm:hidden max-md:hidden justify-between pl-24 pr-24 pt-5 *:flex *:justify-center *:items-center">
+        <div class="gap-3">
+            <i class="text-2xl text-green-600 fa-solid fa-phone"></i>
+            <div>
+                <h3>Call Us:</h3>
+                <p class="font-bold">(+91) 9597236423 / (+91) 9600680604</p>
+            </div>
+        </div>
+        <div class="gap-3">
+            <i class="text-2xl text-green-600 fa-solid fa-envelope"></i>
+            <div>
+                <h3>Mail Us:</h3>
+                <p class="font-bold">trymywebsites@gmail.com / admin@trymywebsites.com</p>
+            </div>
+        </div>
+        <div class="gap-3 *:rounded-3xl *:bg-slate-100 *:flex *:items-center *:justify-center *:shadow-xl">
+            <span class="cursor-pointer w-9 h-9"><i class="text-lg text-green-600 fa-brands fa-facebook"></i></span>
+            <span class="cursor-pointer w-9 h-9"><i class="text-lg text-green-600 fa-brands fa-instagram"></i></span>
+            <span class="cursor-pointer w-9 h-9"><i class="text-lg text-green-600 fa-brands fa-square-whatsapp"></i></span>
+        </div>
+    </section>
+    <!--Nav Container --1  Completed-->
+
+    <section class="flex items-center justify-between px-4 transition md:hidden">
+        <img class="w-32 h-20" src="https://trymywebsites.com/assets/img/logo/tmw%20logo%20name.png" alt="">
+        <i id="Menu" class="px-2 text-2xl fa-solid fa-bars"></i>
+    </section>
+
+
+
+    <section id="Items" class="z-10 hidden px-5 text-white transition bg-black md:hidden">
+        <div class="flex items-center justify-between px-2 py-3">
+            <img class="w-32 h-20" src="https://trymywebsites.com/assets/img/logo/tmw%20logo%20name.png" alt="">
+            <!-- <i class="px-2 text-2xl fa-solid fa-xmark"></i> -->
+        </div>
+        <div class="text-xl *:border-b-[1px] *:py-3 *:border-gray-300 list-none">
+            <li>Home</li>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>Service</li>
+            <li>Pricing</li>
+            <li>Contact</li>
+        </div>
+        <div>
+            <h1 class="mt-8 text-2xl font-bold border-b-2 border-gray-300">Contact Info</h1>
+            <div class="flex items-center gap-5 py-4">
+                <p><i class="fa-solid fa-location-dot"></i></p>
+                <p>52/5,SK TOWERS,SRP MILL,SIVANANTHAPURAM, SARAVANAMPATTI,COIMBATORE-641 035</p>
+            </div>
+            <div class="flex items-center gap-5 py-3">
+                <p><i class="fa-solid fa-phone"></i></p>
+                <div>
+                    <p>(+91) 91597 46498</p>
+                <p>(+91) 90426 98496</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-5 py-3">
+                <p><i class="fa-regular fa-envelope"></i></p>
+                <p>trymywebsites@gmail.com</p>
+            </div>
+            <div>
+                <div class="gap-3 *:rounded-3xl py-4 *:bg-slate-100 flex *:flex *:items-center *:justify-center *:shadow-xl">
+                    <span class="cursor-pointer w-9 h-9"><i class="text-lg text-green-600 fa-brands fa-facebook"></i></span>
+                    <span class="cursor-pointer w-9 h-9"><i class="text-lg text-green-600 fa-brands fa-instagram"></i></span>
+                    <span class="cursor-pointer w-9 h-9"><i class="text-lg text-green-600 fa-brands fa-square-whatsapp"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Menu Bar Section Start-->
+    <section class="bg-red-500 mt-6 py-3 w-full h-screen bg-no-repeat bg-cover bg-[url('https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?t=st=1731548324~exp=1731551924~hmac=43f79b81092d753adc7ce33a2702392d69887eea98af9360bf588c6ed55a1e89&w=826')]">
+        <nav class="sticky left-0 max-sm:hidden max-md:hidden top-10">
+            <div class="flex items-center justify-between w-full bg-white">
+                <div class="flex items-center justify-center w-64 h-24 bg-white"><img class="w-32 h-20" src="https://trymywebsites.com/assets/img/logo/tmw%20logo%20name.png" alt=""></div>
+             <div class="flex gap-10 pr-10 items-center justify-between *:font-mono *:list-none *:font-bold">
+                <a class="duration-300 ease-in hover:text-red-500" href=""><li>HOME</li></a>
+                <a class="duration-300 ease-in hover:text-red-500" href=""><li>ABOUT</li></a>
+                <a class="duration-300 ease-in hover:text-red-500" href=""><li>PORTFOLIO</li></a>
+                <a class="duration-300 ease-in hover:text-red-500" href=""><li>SERVICE</li></a>
+                <a class="duration-300 ease-in hover:text-red-500" href=""><li>PRICING</li></a>
+                <a class="duration-300 ease-in hover:text-red-500" href=""><li>CONTACT</li></a>
+                <a class="px-4 py-3 text-white bg-green-700 rounded-sm" href="">GET RESERVED</a>
+             </div>
+            </div>
+        </nav>
+        <div class="flex md:hidden flex-col items-center gap-5 mt-[50%] justify-center">
+            <h1 class="text-4xl text-white">Try My website</h1>
+            <button class="px-3 py-2 bg-yellow-500">GET STRATED</button>
+        </div>
+    </section>
+    <!--Menu Bar Section Completed-->
+    
+
+
+    <!--Abour Company Section Start-->
+    <section class="flex items-center px-2 py-4 max-lg:flex-col max-sm:flex-col">
+        <div class="w-[3700px] max-sm:w-full max-lg:w-full"><img src="https://trymywebsites.com/assets/img/about/about-2.jpg" alt=""></div>
+        <div class="px-5 ">
+            <h2 class="py-3 font-bold text-green-700">| About Company</h2>
+            <h1 class="py-3 font-serif text-3xl font-semibold uppercase max-sm:text-xl">We're Leading Websites Designing Company</h1>
+            <p class="py-6 font-mono font-light text-gray-500">TRYMYWEBSITES professional Website Designing and Digital Marketing Company based in Coimbatore, India. Our company is involved in providing Web Designing, Website development, Web Hosting, Ecommerce Website Design, Social Media Optimisation (SMO) Search Engine Optimisation (SEO), Digital Marketing, Logo Designing, Banner Designing, Visiting Card Designing, Broucher Designs ect.</p>
+            <div class="flex items-center gap-8 pb-5">
+                <img class="w-20 h-20" src="https://img.freepik.com/premium-vector/trophy-icon_933463-45191.jpg" alt="">
+                <div>
+                    <p class="text-5xl font-extrabold text-green-700 max-sm:text-2xl">2018</p>
+                    <p class="text-2xl max-sm:text-xl">Established Year</p>
+                </div>
+               
+            </div>
+           <div class="grid grid-cols-2 gap-2 max-sm:grid-cols-1">
+             <div>
+                <div class="flex items-center gap-5">
+                <img class="w-16 h-16" src="https://www.startupportal.in/wp-content/uploads/2022/12/partnership.png" alt="">
+                <p class="font-bold">Who We Are</p>
+                </div>
+                <p class="py-4 ml-3 font-mono">TryMyWebsites is an IT - Branding Company offering customised solutions and products to companies and help them transforming their business digitally.</p>
+            </div>
+            <div>
+                <div class="flex items-center gap-5">
+                <img class="w-16 h-16" src="data:image/png;base64,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" alt="">
+                <p class="font-bold">What We Do</p>
+                </div>
+                <p class="py-6 ml-3 font-mono">We create custom, functional websites focused on converting your users into customers.</p>
+            </div>
+           </div>
+           <a class="px-4 py-3 ml-3 text-white bg-green-700 rounded-sm" href="">READ MORE</a>
+        </div>
+    </section>
+    <!--Abour Company Section End-->
+
+    <!--Container Section Start-->
+    <section class="w-full mt-20 py-8 text-white max-sm:px-2 bg-[#000435]">
+        <div class="flex items-center justify-between text-center max-sm:flex-col">
+            <div>
+                <img class="size-40" src="./download (1)_prev_ui.png" alt="">
+                <p class="py-3 font-bold uppercase">Strategy</p>
+            </div>
+            <div>
+                <img class="size-40" src="download (2)_prev_ui.png" alt="">
+                <p class="py-3 font-bold uppercase">Design</p>
+            </div>
+            <div>
+                <img class="size-40" src="/download_prev_ui.png" alt="">
+                <p class="py-3 font-bold uppercase">Develop</p>
+            </div>
+            <div>
+                <img class="size-40" src="/images_prev_ui.png" alt="">
+                <p class="py-3 font-bold uppercase">Support</p>
+            </div>
+        </div>
+    </section>
+    <!--Container Section End-->
+
+    <!--Service Section Start-->
+    <section class="mt-20 px-28 max-lg:px-10 max-sm:px-2">
+        <div>
+            <h1 class="py-4 text-2xl font-bold text-center text-green-700">Our Services</h1>
+            <h1 class="py-8 font-serif text-5xl font-extrabold text-center uppercase max-sm:text-center max-sm:text-2xl">Our Best Services</h1>
+        </div>
+        <div class="grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-10 *:rounded-md my-16">
+        <div class="w-80 max-sm:w-full h-52 hover:bg-black *:hover:text-white hover:transition-[0.5s] pl-10 shadow-xl">
+            <div class="flex items-center justify-center w-24 h-24 bg-pink-700 rounded-es-full rounded-ee-full"><i class="text-4xl fa-regular fa-lightbulb"></i></div>
+            <h1 class="text-2xl font-bold mt-7">Marketing</h1>
+        </div>
+        <div class="w-80 max-sm:w-full h-52  hover:bg-black *:hover:text-white hover:transition-[0.5s] pl-10 shadow-xl">
+            <div class="flex items-center justify-center w-24 h-24 bg-pink-700 rounded-es-full rounded-ee-full"><i class="text-4xl fa-solid fa-people-arrows"></i></div>
+            <h1 class="text-2xl font-bold mt-7">Development</h1>
+        </div>
+        <div class="w-80 max-sm:w-full h-52 hover:bg-black *:hover:text-white hover:transition-[0.5s] pl-10 shadow-xl">
+            <div class="flex items-center justify-center w-24 h-24 bg-pink-700 rounded-es-full rounded-ee-full"><i class="text-4xl fa-solid fa-hospital"></i></div>
+            <h1 class="text-2xl font-bold mt-7">Web Design</h1>
+        </div>
+        <div class="w-80 max-sm:w-full h-52 hover:bg-black *:hover:text-white hover:transition-[0.5s] pl-10 shadow-xl">
+            <div class="flex items-center justify-center w-24 h-24 bg-pink-700 rounded-es-full rounded-ee-full"><i class="text-4xl fa-solid fa-building-ngo"></i></div>
+            <h1 class="text-2xl font-bold mt-7">SEO Optimization</h1>
+        </div>
+        <div class="w-80 max-sm:w-full h-52 hover:bg-black *:hover:text-white hover:transition-[0.5s] pl-10 shadow-xl">
+            <div class="flex items-center justify-center w-24 h-24 bg-pink-700 rounded-es-full rounded-ee-full"><i class="text-4xl fa-solid fa-shuffle"></i></div>
+            <h1 class="text-2xl font-bold mt-7">Branding</h1>
+        </div>
+        <div class="w-80 max-sm:w-full h-52 hover:bg-black *:hover:text-white hover:transition-[0.5s] pl-10 shadow-xl">
+            <div class="flex items-center justify-center w-24 h-24 bg-pink-700 rounded-es-full rounded-ee-full"><i class="text-4xl fa-solid fa-cash-register"></i></div>
+            <h1 class="text-2xl font-bold mt-7">Ecommerce</h1>
+        </div>
+        </div>
+    </section>
+      <!--Service Section Completed-->
+
+    <!--Fectures of our Company Section Start-->
+    <section class="flex items-center justify-center w-full gap-6 px-10 py-20 text-white bg-black max-lg:flex-col max-sm:flex-col">
+        <video class="w-[50%] max-sm:w-full h-full rounded-lg" controls>
+            <source
+              src="https://docs.material-tailwind.com/demo.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div>
+            <h1 class="py-5 text-2xl font-bold text-orange-600">| Why Choose Us</h1>
+            <h1 class="py-4 text-4xl font-bold uppercase">We Execute Our Ideas from Start to Finish</h1>
+            <div>
+                <div class="flex gap-5 py-5 max-sm:flex-col">
+                   <div>
+                    <div class="w-20 h-20 border-[1px] flex items-center justify-center rounded-full border-white">
+                        <div class="w-16 flex items-center justify-center h-16 border-[1px] rounded-full border-white">
+                            <p>01</p>
+                        </div>
+                    </div>
+                   </div>
+                   <div>
+                    <h1>Strategy</h1>
+                    <p>We define your competition and target audience. Discover what is working in your online industry, then design your website accordingly.</p>
+                   </div>
+                </div>
+                <div class="flex gap-5 py-5 max-sm:flex-col">
+                   <div>
+                    <div class="w-20 h-20 border-[1px] flex items-center justify-center rounded-full border-white">
+                        <div class="w-16 flex items-center justify-center h-16 border-[1px] rounded-full border-white">
+                            <p>02</p>
+                        </div>
+                    </div>
+                   </div>
+                    <div>
+                        <h1>Strategy</h1>
+                        <p>Color scheme, layout, sitemap, and style. We will bring your brand to life with a one of a kind masterpiece, built just for you</p>
+                    </div>
+                </div>
+               <div class="flex gap-5 py-5 max-sm:flex-col">
+                <div>
+                    <div class="w-20 h-20 border-[1px] flex items-center justify-center rounded-full border-white">
+                        <div class="w-16 flex items-center justify-center h-16 border-[1px] rounded-full border-white">
+                            <p>03</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1>Develop</h1>
+                    <p>We turn your ideas into a reality. &our website is placed on a "development server" where you get to watch the whole process, live.</p>
+                </div>
+               </div>
+               <div class="flex gap-5 py-5 max-sm:flex-col">
+                <div>
+                    <div class="w-20 h-20 border-[1px] flex items-center justify-center rounded-full border-white">
+                        <div class="w-16 flex items-center justify-center h-16 border-[1px] rounded-full border-white">
+                            <p>04</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1>Develop</h1>
+                    <p>We turn your ideas into a reality. &our website is placed on a "development server" where you get to watch the whole process, live.</p>
+                </div>
+               </div>
+            </div>
+          </div>
+    </section>
+     <!--Fectures of our Company Section Completed-->
+
+    <!--Testominal Container Start-->
+    <section class="flex gap-10 px-10 mt-36 max-sm:flex-col max-lg:flex-col">
+        <div class="w-4/6 max-sm:w-full max-lg:w-full">
+            <h1 class="py-5 text-2xl font-bold text-green-600">Testominal</h1>
+            <h1 class="py-10 font-bold uppercase max-sm:text-2xl max-lg:text-3xl text-7xl">Some Expression Of Our Clients</h1>
+            <div class="py-5">
+                <p class="w-4/5 max-sm:w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt distinctio veniam praesentium quis, nemo nulla ad dolore tenetur deserunt cum. Nulla soluta fugiat repellat id laudantium? A animi voluptatem suscipit ipsa. Sapiente fugiat praesentium inventore qui, dolor facilis. Fugit et magnam recusandae? Natus voluptatem minus modi. Dignissimos ipsa vel sed rerum quo in iusto, perspiciatis, natus nihil ex consequuntur ipsam?</p>
+                <p class="pt-5">Jananothen Razib</p>
+                <p>Sr.Manager,Wood Bazer</p>
+            </div>
+            <div class="flex gap-3">
+                <span class="flex items-center justify-center w-12 h-12 rounded-full shadow-xl"><i class="fa-solid fa-arrow-left"></i></span>
+                <span class="flex items-center justify-center w-12 h-12 rounded-full shadow-xl"><i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </div>
+        <div class="relative">
+            <img class="w-[200px] max-sm:w-[100px] max-sm:h-[150px] max-lg:w-[200px] max-lg:left-0 max-lg:z-10 max-sm:left-16 animate-hello ease-out shadow-2xl absolute bottom-20 -left-16 h-[300px] rounded-tr-full rounded-tl-full rounded-br-[800rem]" src="https://plirisconsulting.com/wp-content/uploads/2021/07/Mobile.png" alt="">
+            <img class="w-[550px] max-sm:w-[350px] max-sm:h-[500px] h-[700px] max-lg:h-[750px] max-sm:relative max-sm:left-2 max-lg:relative max-lg:left-24 rounded-tr-full rounded-tl-full rounded-br-[800rem]" src="https://g5-assets-cld-res.cloudinary.com/image/upload/q_auto,f_auto,c_fill,g_center,h_1000,w_1000/v1702681220/g5/g5-c-il8mwp5u-fpi-management/g5-cl-1o9koj5oe3-fpi-management-modesto-ca/uploads/GettyImages-1337392092_hyf6g2.jpg" alt="">
+        </div>
+    </section>
+    <!--Testominal Container End-->
+
+    <!--Hiring Container Start-->
+    <section class="w-full flex justify-center items-center flex-col h-[600px] my-32 bg-[url('https://appsak.in/wp-content/uploads/2018/11/h6-parallax.jpg')]">
+        <h1 class="w-4/6 py-8 font-serif text-5xl font-bold text-center text-white uppercase max-sm:text-2xl">Do You Have Some Projects In Your Mind ?</h1>
+        <button class="px-3 py-2 bg-yellow-500">HIRE US NOW</button>
+    </section>
+    <!--Hiring Container End-->
+
+    <!--Footer Section Start-->        
+    <section class="flex justify-between w-full px-20 py-10 text-white bg-black max-sm:px-4 max-sm:flex-col min-h-96">
+        <div>
+            <h1 class="py-3 font-mono text-gray-300">Have a question? Call us 24/7</h1>
+            <p class="font-bold">95 97 23 64 23</p>
+            <p class="pb-3 font-bold">96 00 68 06 04</p>
+            <p class="font-bold">Contact Info</p>
+            <h2 class="font-mono text-gray-300 w-60">52/5,SK TOWERS,SRP MILL,SIVANANTHAPURAM, SARAVANAMPATTI,COIMBATORE-641 035</h2>
+            <div class="gap-3 *:rounded-3xl py-4 *:bg-slate-100 flex *:flex *:items-center *:justify-center *:shadow-xl">
+                <span class="cursor-pointer w-9 h-9"><i class="text-lg text-green-600 fa-brands fa-facebook"></i></span>
+                <span class="cursor-pointer w-9 h-9"><i class="text-lg text-green-600 fa-brands fa-instagram"></i></span>
+                <span class="cursor-pointer w-9 h-9"><i class="text-lg text-green-600 fa-brands fa-square-whatsapp"></i></span>
+            </div>
+        </div>
+            <div>
+                <h1 class="py-3 font-bold text-white uppercase">Categories</h1>
+                <div class="list-none *:text-gray-300 *:font-mono *:py-2">
+                <li class="mt-7">static websites</li>
+                <li>dynamic websites</li>
+                <li>web development</li>
+                <li>SEO Optimization</li>
+                <li>E-commerce websites</li>
+                </div>
+            </div>
+            <div>
+                <h1 class="py-3 font-bold text-white uppercase">About Company</h1>
+                <div class="list-none *:text-gray-300 *:font-mono *:py-2">
+                <li class="mt-7">About Company</li>
+                <li>Contact Us</li>
+                <li>Our Portfolio</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+                </div>
+            </div>
+            <div>
+                <h1 class="py-3 font-serif font-bold uppercase">Service Schedule</h1>
+                <p class="mt-10 font-bold">monday-saturday</p>
+                <p class="py-5 text-gray-300">9.30am to 6.30pm</p>
+                <p class="font-bold">sunday :Closed</p>
+                <p class="font-bold">OFFICE :</p>
+                    <p>(+91) 91597 46498</p>
+                    <p>(+91) 90426 98496</p>
+            </div>
+    </section>
+        <!--Footer Section End-->
+        <script src="script.js"></script>
+</body>
+</html>
